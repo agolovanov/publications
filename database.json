@@ -134,8 +134,8 @@
   {
     "Authors": "Введенский, Н. В.; Костюков, И. Ю.; Неруш, Е. Н.; Силаев, А. А.; Башмаков, В. Ф.; Голованов, А. А.; Серебряков, Д. А.",
     "Title": "Моделирование квантовых процессов в интенсивных электромагнитных полях",
-    "Type": "Book",
-    "Journal": "Сборник статей под ред. проф. В.П. Гергеля",
+    "Type": "BookArticle",
+    "Book": "Сборник статей под ред. проф. В.П. Гергеля",
     "Pages": "6-14",
     "ISBN": "978-5-91326-350-6",
     "Publisher": "Изд-во Нижегородского университета",
@@ -251,7 +251,7 @@
     "Pages": "295-298",
     "Date": "2016/4/1",
     "Language": "Russian*",
-    "URL": "http://www.quantum-electron.ru/php/paper_rus.phtml?journal_id=qe&paper_id=16040"
+    "URL": "http://www.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=qe&paperid=16363"
   },
   {
     "Authors": "Яландин, М. И.; Гинзбург, Н. С.; Голованов, А. А.; Ельчанинов, А. А.; Зотова, И. В.; Романченко, И. В.; Ростов, В. В.; Ульмаскулов, М. Р.; Шарыпов, К. А.; Шунайлов, С. А.",
@@ -337,7 +337,7 @@
     "Pages": "228-231",
     "Date": "2017/3/1",
     "Language": "Russian*",
-    "URL": "http://www.quantum-electron.ru/php/paper_rus.phtml?journal_id=qe&paper_id=16313"
+    "URL": "http://www.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=qe&paperid=16578"
   },
   {
     "Authors": "Golovanov, A. A.; Kostyukov, I. Yu.; Pukhov, A.; Thomas, J.",
@@ -369,7 +369,7 @@
   },
   {
     "Authors": "Голованов, А. А.; Костюков, И. Ю.",
-    "Title": "Особенности бетатронных колебаний и бетатронного излучения в плазме с полым каналом ",
+    "Title": "Особенности бетатронных колебаний и бетатронного излучения в плазме с полым каналом",
     "Type": "Article",
     "Journal": "Квантовая электроника",
     "Volume": "47",
@@ -377,6 +377,6 @@
     "Pages": "188-193",
     "Date": "2017/3/1",
     "Language": "Russian*",
-    "URL": "http://www.quantum-electron.ru/php/paper_rus.phtml?journal_id=qe&paper_id=16305"
+    "URL": "http://www.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=qe&paperid=16573"
   }
 ]

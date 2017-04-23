@@ -1,5 +1,8 @@
 *.ipynb
 *.json
 !database.json
+!journals.json
 *.csv
 .idea
+__pycache__
+*.txt
