@@ -1,0 +1,5 @@
+*.ipynb
+*.json
+!database.json
+*.csv
+.idea
