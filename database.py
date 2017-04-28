@@ -50,6 +50,13 @@ class Database():
             self.pages_prefix_ru = 'стр.~'
             self.pages_prefix = 'p.~'
             self.pages_prefix_mult = 'pp.~'
+        elif format == 'html':
+            self.initials_sep = '&nbsp;'
+            self.one_initial_sep = '&nbsp;'
+            self.pages_sep = '&ndash;'
+            self.pages_prefix_ru = 'стр.&nbsp;'
+            self.pages_prefix = 'p.&nbsp;'
+            self.pages_prefix_mult = 'pp.&nbsp;'
         elif format == 'unicode':
             self.pages_sep = '–'
 
@@ -79,6 +86,8 @@ class Database():
 
         if self.format == 'latex':
             self.journal_info(r'\textit{$j} \textbf{$v}, $p ($yy)')
+        elif self.format == 'html':
+            self.journal_info(r'<i>$j</i> <b>$v</b>, $p ($yy)')
         else:
             self.journal_info(r'$j $v, $p ($yy)')
 
