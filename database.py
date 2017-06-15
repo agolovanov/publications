@@ -1,20 +1,24 @@
-import pandas as pd
+import pandas as _pd
 
-class Database():
-    types = ['Article', 'Proceeding', 'Abstract', 'BookArticle']
-    languages = ['English', 'English*', 'Russian', 'Russian*']
+
+class Database:
+    TYPES = ['Article', 'Proceeding', 'Abstract', 'BookArticle', 'Preprint', 'Patent']
+    LANGUAGES = ['English', 'English*', 'Russian', 'Russian*']
 
     et_al = 'et al.'
     et_al_ru = 'и др.'
 
     def __init__(self, file='database.json', journals_file='journals.json', languages='English', types=None,
                  format=None, with_page_prefix=False):
-        self.journals_db = pd.read_json(journals_file).set_index('Journal')
+        self.journals_db = _pd.read_json(journals_file).set_index('Journal')
 
         if types is None:
-            types = Database.types
+            types = Database.TYPES
         elif not isinstance(types, list):
             types = [types]
+            for t in types:
+                if t not in Database.TYPES:
+                    raise ValueError(f'Type [{t}] is not available, possible types are: {", ".join(Database.TYPES)}')
 
         if languages == 'English':
             languages = ['English', 'English*']
@@ -23,9 +27,9 @@ class Database():
         elif languages == 'RussianEnglish':
             languages = ['English', 'Russian*', 'Russian']
         elif languages == 'All':
-            languages = Database.languages
+            languages = Database.LANGUAGES
 
-        self.db0 = pd.read_json(file, dtype={'Volume': 'str', 'Number': 'str'})
+        self.db0 = _pd.read_json(file, dtype={'Volume': 'str', 'Number': 'str'})
         self.check()
         self.db0.drop(self.db0[~self.db0['Language'].isin(languages)].index, inplace=True)
         self.db0.drop(self.db0[~self.db0['Type'].isin(types)].index, inplace=True)
@@ -42,6 +46,8 @@ class Database():
         self.pages_prefix_ru = 'стр. '
         self.pages_prefix = 'p. '
         self.pages_prefix_mult = 'pp. '
+        self.proceedings_prefix = 'Proceedings of'
+        self.proceedings_prefix_ru = 'Материалы'
 
         if format == 'latex':
             self.initials_sep = '\,'
@@ -65,11 +71,11 @@ class Database():
 
     def check(self):
         for _, el in self.db0.iterrows():
-            if el['Type'] not in Database.types:
+            if el['Type'] not in Database.TYPES:
                 raise Exception("The type [%s] of entry [%s] is invalid" % (el['Type'], el['Title']))
-            if el['Language'] not in Database.languages:
+            if el['Language'] not in Database.LANGUAGES:
                 raise Exception("The language [%s] of entry [%s] is invalid" % (el['Language'], el['Title']))
-            if not pd.isnull(el['Journal']) and el['Journal'] not in self.journals_db.index:
+            if not _pd.isnull(el['Journal']) and el['Journal'] not in self.journals_db.index:
                 raise Exception("Journal [%s] is absent in journals" % (el['Journal']))
             for s in el:
                 if isinstance(s, str) and s.strip() != s:
@@ -77,7 +83,7 @@ class Database():
 
     def format_db(self):
         self.db['Journal Short'] = self.db0['Journal'].map(lambda x:
-                                                           self.journals_db['Short'][x] if pd.notnull(x) else None)
+                                                           self.journals_db['Short'][x] if _pd.notnull(x) else None)
         self.impact_factor()
         self.db['Year'] = self.db0['Date'].dt.year
         self.authors()
@@ -93,6 +99,9 @@ class Database():
 
     def authors(self, max_authors=None, initials_sep=None, initials_in_front=True, one_initial_sep=None,
                 many_initials_sep=None, use_and=False):
+        if len(self.db) == 0:
+            return
+
         if initials_sep is None:
             initials_sep = self.initials_sep
         if one_initial_sep is None:
@@ -151,7 +160,7 @@ class Database():
 
     def impact_factor(self, s: str=None):
         def calc_if(journal):
-            if pd.isnull(journal) or journal not in self.journals_db.index:
+            if _pd.isnull(journal) or journal not in self.journals_db.index:
                 return None
 
             el = self.journals_db.loc[journal]
@@ -168,6 +177,10 @@ class Database():
         self.db['IF'] = self.db['Journal'].map(calc_if)
 
     def pages(self, sep=None, use_prefix=None):
+        if len(self.db) == 0:
+            self.db['Pages'] = None
+            return
+
         if sep is None:
             sep = self.pages_sep
         if use_prefix is None:
@@ -176,7 +189,7 @@ class Database():
         def transform_page(s, language):
             is_en = language.startswith("English")
 
-            if pd.isnull(s):
+            if _pd.isnull(s):
                 return None
 
             arr = s.split('-')
@@ -197,7 +210,7 @@ class Database():
 
     def page_numbers(self):
         def calc_page_number(s):
-            if pd.isnull(s):
+            if _pd.isnull(s):
                 return None
 
             arr = s.split('-')
@@ -208,11 +221,10 @@ class Database():
 
         self.db.loc[self.db['Page Number'].isnull(), 'Page Number'] = self.db0['Pages'].map(calc_page_number)
 
-
     def get(self, s, skip_none = True, replacement_dict=None):
         if isinstance(s, dict):
-            return pd.DataFrame({k: self.get(v, skip_none=skip_none, replacement_dict=replacement_dict)
-                                 for k, v in s.items()})
+            return _pd.DataFrame({k: self.get(v, skip_none=skip_none, replacement_dict=replacement_dict)
+                                  for k, v in s.items()})
 
         if replacement_dict is None:
             replacement_dict = {'$a': 'Authors',
@@ -224,14 +236,14 @@ class Database():
                                 '$pn': 'Page Number'
                                 }
 
-        arr = pd.Series(index=self.db.index)
+        arr = _pd.Series(index=self.db.index)
         for index, el in self.db.iterrows():
             ans = s
             for k, v in replacement_dict.items():
                 if k not in ans:
                     continue
                 value = el[v]
-                if pd.isnull(value):
+                if _pd.isnull(value):
                     value = ''
                     if skip_none:
                         ans = None
@@ -243,3 +255,13 @@ class Database():
     def print(self, s: str, skip_none = True):
         for line in self.get(s, skip_none):
             print(line)
+
+    def filter_years(self, min_year=None, max_year=None):
+        if min_year is not None:
+            self.db.drop(self.db[self.db['Year'] < min_year].index, inplace=True)
+        if max_year is not None:
+            self.db.drop(self.db[self.db['Year'] < max_year].index, inplace=True)
+        return self
+
+    def __len__(self):
+        return len(self.db)
