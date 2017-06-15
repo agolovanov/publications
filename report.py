@@ -32,7 +32,7 @@ print(f'О: {overall}<br>')
 for h, t in zip(headlines, types):
     print('<br>')
     print(f'<h3>{h}</h3>')
-    db = pdb.Database(languages='RussianEnglish', types=t, format='html').get('$a. $t. $i.')
+    items = pdb.Database(languages='RussianEnglish', types=t, format='html', with_page_prefix=True).get('$a. $t. $i.')
     if len(items) == 0:
         print('&mdash;<br>')
     for i in range(len(items)):

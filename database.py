@@ -7,6 +7,19 @@ class Database:
 
     et_al = 'et al.'
     et_al_ru = 'и др.'
+    initials_sep = ' '
+    one_initial_sep = ' '
+    many_initials_sep = ' '
+    pages_sep = '-'
+    pages_prefix_ru = 'стр. '
+    pages_prefix = 'p. '
+    pages_prefix_mult = 'pp. '
+    proceedings_prefix = 'Proceedings of'
+    proceedings_prefix_ru = 'Материалы'
+    lquote = '"'
+    rquote = '"'
+    lquote_ru = '"'
+    rquote_ru = '"'
 
     def __init__(self, file='database.json', journals_file='journals.json', languages='English', types=None,
                  format=None, with_page_prefix=False):
@@ -39,16 +52,6 @@ class Database:
         self.format = format
         self.with_page_prefix = with_page_prefix
 
-        self.initials_sep = ' '
-        self.one_initial_sep = ' '
-        self.many_initials_sep = ' '
-        self.pages_sep = '-'
-        self.pages_prefix_ru = 'стр. '
-        self.pages_prefix = 'p. '
-        self.pages_prefix_mult = 'pp. '
-        self.proceedings_prefix = 'Proceedings of'
-        self.proceedings_prefix_ru = 'Материалы'
-
         if format == 'latex':
             self.initials_sep = '\,'
             self.one_initial_sep = '~'
@@ -56,6 +59,10 @@ class Database:
             self.pages_prefix_ru = 'стр.~'
             self.pages_prefix = 'p.~'
             self.pages_prefix_mult = 'pp.~'
+            self.lquote = "``"
+            self.rquote = "''"
+            self.lquote_ru = "<<"
+            self.rquote_ru = ">>"
         elif format == 'html':
             self.initials_sep = '&nbsp;'
             self.one_initial_sep = '&nbsp;'
@@ -63,8 +70,16 @@ class Database:
             self.pages_prefix_ru = 'стр.&nbsp;'
             self.pages_prefix = 'p.&nbsp;'
             self.pages_prefix_mult = 'pp.&nbsp;'
+            self.lquote = "&ldquo;"
+            self.rquote = "&rdquo;"
+            self.lquote_ru = "&laquo;"
+            self.rquote_ru = "&raquo;"
         elif format == 'unicode':
             self.pages_sep = '–'
+            self.lquote = "“"
+            self.rquote = "”"
+            self.lquote_ru = "«"
+            self.rquote_ru = "»"
 
         self.db = self.db0.copy()
         self.format_db()
@@ -89,6 +104,21 @@ class Database:
         self.authors()
         self.pages()
         self.page_numbers()
+        self.conference_materials()
+
+        if self.format == 'latex':
+            self.conference_info(r'\textit{$C}, $l ($yy)')
+        elif self.format == 'html':
+            self.conference_info(r'<i>$C</i>, $l ($yy)')
+        else:
+            self.conference_info(r'$C, $l ($yy)')
+
+        if self.format == 'latex':
+            self.conference_info(r'\textit{$C}, $p, $l ($yy)')
+        elif self.format == 'html':
+            self.conference_info(r'<i>$C</i>, $p, $l ($yy)')
+        else:
+            self.conference_info(r'$C, $p, $l ($yy)')
 
         if self.format == 'latex':
             self.journal_info(r'\textit{$j} \textbf{$v}, $p ($yy)')
@@ -156,7 +186,67 @@ class Database:
                             '$n': 'Number',
                             '$p': 'Pages',
                             '$yy': 'Year'}
-        self.db['Info'] = self.get(s, skip_none, replacement_dict)
+        tmp = self.get(s, skip_none, replacement_dict)
+        self.db.loc[tmp.notnull(), 'Info'] = tmp
+
+    def conference_info(self, s: str, skip_none=True):
+        """
+        Formats the conference proceedings/abstract information into the `Info` column using the template.
+        
+        :param s: 
+         Allowed options are:
+         $C --- conference materials name
+         $p --- pages in the materials
+         $l --- location of the conference
+         $yy --- year of the conference
+        :param skip_none: 
+         Doesn't replace the information of the conferences which cannot be correctly formatted.
+        """
+        replacement_dict = {'$C': 'Conference Materials',
+                            '$l': 'Location',
+                            '$p': 'Pages',
+                            '$yy': 'Year'}
+        tmp = self.get(s, skip_none, replacement_dict)
+        self.db.loc[tmp.notnull(), 'Info'] = tmp
+
+    def conference_materials(self, use_prefix=True, long_name=True):
+        """
+        Formats conference materials into a `Conference Materials` column.
+        :param use_prefix: where to use a prefix like "Proceedings of ..."
+        :param long_name: whether to use long or short names of the conference
+        """
+        if len(self.db) == 0:
+            self.db['Conference Materials'] = None
+            return
+
+        def format_materials(row):
+            is_en = row['Language'].startswith('English')
+            lquote = self.lquote if is_en else self.lquote_ru
+            rquote = self.rquote if is_en else self.rquote_ru
+            prefix = self.proceedings_prefix if is_en else self.proceedings_prefix_ru
+            long = row['Conference']
+            short = row['Conference Short']
+            title = row['Conference Title']
+            if _pd.notnull(title):
+                if _pd.notnull(long):
+                    full_long = title + ' ' + lquote + long + rquote
+                else:
+                    full_long = title
+            elif _pd.notnull(long):
+                full_long = long
+            else:
+                full_long = None
+
+            if long_name:
+                name = full_long if _pd.notnull(full_long) else short
+            else:
+                name = short if _pd.notnull(short) else full_long
+
+            if use_prefix and _pd.notnull(name):
+                name = prefix + ' ' + name
+            return name
+
+        self.db['Conference Materials'] = self.db.apply(format_materials, axis=1)
 
     def impact_factor(self, s: str=None):
         def calc_if(journal):
@@ -221,7 +311,7 @@ class Database:
 
         self.db.loc[self.db['Page Number'].isnull(), 'Page Number'] = self.db0['Pages'].map(calc_page_number)
 
-    def get(self, s, skip_none = True, replacement_dict=None):
+    def get(self, s, skip_none=True, replacement_dict=None):
         if isinstance(s, dict):
             return _pd.DataFrame({k: self.get(v, skip_none=skip_none, replacement_dict=replacement_dict)
                                   for k, v in s.items()})
