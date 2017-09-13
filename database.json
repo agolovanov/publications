@@ -15,7 +15,7 @@
     "Authors": "Golovanov, A. A.; Kostyukov, I. Yu.",
     "Title": "Analytical model for electron side injection into linear plasma waves",
     "Type": "Proceeding",
-    "Conference": "Topical Problems of Nonlinear Wave Physics",
+    "Conference": "Topical Problems of Nonlinear Wave Physics 2014",
     "Conference Short": "NWP-2014",
     "Conference Title": "the International Symposium",
     "Location": "Nizhny Novgorod, Russia",
@@ -395,5 +395,17 @@
     "Language": "English",
     "URL": "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.118.264801",
     "DOI": "10.1103/PhysRevLett.118.264801"
+  },
+  {
+    "Authors": "Golovanov, A. A.; Kostyukov, I. Yu.; Thomas, J.; Pukhov, A. M.",
+    "Title": "Analytic model for electromagnetic fields in the bubble regime of plasma wakefield",
+    "Type": "Proceeding",
+    "Conference": "Topical Problems of Nonlinear Wave Physics 2017",
+    "Conference Short": "NWP-2017",
+    "Conference Title": "the International Symposium",
+    "Location": "Nizhny Novgorod, Russia",
+    "Pages": "71-71",
+    "Date": "2017/07/22",
+    "Language": "English"
   }
 ]
