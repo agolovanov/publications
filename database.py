@@ -42,7 +42,7 @@ class Database:
         elif languages == 'All':
             languages = Database.LANGUAGES
 
-        self.db0 = _pd.read_json(file, dtype={'Volume': 'str', 'Number': 'str'})
+        self.db0 = _pd.read_json(file, dtype={'Volume': 'str', 'Number': 'str', 'WOS': 'str'})
         self.check()
         self.db0.drop(self.db0[~self.db0['Language'].isin(languages)].index, inplace=True)
         self.db0.drop(self.db0[~self.db0['Type'].isin(types)].index, inplace=True)
