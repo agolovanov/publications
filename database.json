@@ -37,7 +37,8 @@
     "Language": "English*",
     "URL": "http://link.springer.com/article/10.1134/S1063776114100021",
     "DOI": "10.1134/S1063776114100021",
-    "WOS": "000345392500006"
+    "WOS": "000345392500006",
+    "Scopus": "?"
   },
   {
     "Authors": "Гинзбург, Н. С.; Голованов, А. А.; Зотова, И. В.; Малкин, А. М.; Тараканов, В. П.",
@@ -63,7 +64,8 @@
     "Pages": "395-398",
     "Language": "English",
     "Date": "2014/08/25",
-    "URL": "http://accelconf.web.cern.ch/AccelConf/FEL2014/papers/tup017.pdf"
+    "URL": "http://accelconf.web.cern.ch/AccelConf/FEL2014/papers/tup017.pdf",
+    "Scopus": "?"
   },
   {
     "Authors": "Ginzburg, N. S.; Golovanov, A. A.; Zotova, I. V.; Malkin, A. M.",
@@ -77,7 +79,8 @@
     "Date": "2014/02/14",
     "URL": "http://link.springer.com/article/10.1134%2FS1063785014010210",
     "DOI": "10.1134/S1063785014010210",
-    "WOS": "000331643800021"
+    "WOS": "000331643800021",
+    "Scopus": "?"
   },
   {
     "Authors": "Гинзбург, Н. С.; Голованов, А. А.; Зотова, И. В.; Малкин, А. М.",
@@ -120,7 +123,8 @@
     "Language": "English",
     "URL": "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.115.114802",
     "DOI": "10.1103/PhysRevLett.115.114802",
-    "WOS": "000361040800003"
+    "WOS": "000361040800003",
+    "Scopus": "?"
   },
   {
     "Authors": "Zotova, I. V.; Ginzburg, N. S.; Golovanov, A. A.; Yalandin, M. I.; Rostov, V. V.",
@@ -135,7 +139,8 @@
     "Language": "English",
     "URL": "http://ieeexplore.ieee.org/abstract/document/7327646/",
     "DOI": "10.1109/IRMMW-THz.2015.7327646",
-    "WOS": "000376674000254"
+    "WOS": "000376674000254",
+    "Scopus": "?"
   },
   {
     "Authors": "Введенский, Н. В.; Костюков, И. Ю.; Неруш, Е. Н.; Силаев, А. А.; Башмаков, В. Ф.; Голованов, А. А.; Серебряков, Д. А.",
@@ -162,7 +167,8 @@
     "Language": "English*",
     "URL": "http://link.springer.com/article/10.1134/S0021364016240085",
     "DOI": "10.1134/S0021364016240085",
-    "WOS": "000395060600013"
+    "WOS": "000395060600013",
+    "Scopus": "?"
   },
   {
     "Authors": "Артеменко, И. И.; Голованов, А. А.; Костюков, И. Ю.; Кукушкина, Т. М.; Лебедев, В. С.; Неруш, Е. Н.; Самсонов, А. С.; Серебряков, Д. А.",
@@ -218,7 +224,8 @@
     "URL": "http://aip.scitation.org/doi/abs/10.1063/1.4962565",
     "DOI": "10.1063/1.4962565",
     "Language": "English",
-    "WOS": "000385633200076"
+    "WOS": "000385633200076",
+    "Scopus": "?"
   },
   {
     "Authors": "Thomas, J.; Kostyukov, I. Yu.; Pronold, J.; Golovanov, A.; Pukhov, A.",
@@ -235,7 +242,8 @@
     "URL": "http://aip.scitation.org/doi/abs/10.1063/1.4948712",
     "DOI": "10.1063/1.4948712",
     "Language": "English",
-    "WOS": "000378427900074"
+    "WOS": "000378427900074",
+    "Scopus": "?"
   },
   {
     "Authors": "Golovanov, A. A.; Kostyukov, I. Yu.; Pukhov, A. M.; Thomas, J.",
@@ -250,7 +258,8 @@
     "Language": "English*",
     "URL": "http://iopscience.iop.org/article/10.1070/QEL16040/meta",
     "DOI": "10.1070/QEL16040",
-    "WOS": "000378225400003"
+    "WOS": "000378225400003",
+    "Scopus" : "?"
   },
   {
     "Authors": "Голованов, А. А.; Костюков, И. Ю.; Пухов, А. М.; Томас, Й.",
@@ -299,7 +308,8 @@
     "Language": "English",
     "URL": "http://www.sciencedirect.com/science/article/pii/S0168900216300286",
     "DOI": "10.1016/j.nima.2016.03.010",
-    "WOS": "000379144100082"
+    "WOS": "000379144100082",
+    "Scopus": "?"
   },
   {
     "Authors": "Ginzburg, N. S.; Cross, A. W.; Golovanov, A. A.; Phelps, A. D. R.; Romanchenko, I. V.; Rostov, V. V.; Sharypov, K. A.; Shpak, V. G.; Shunailov, S. A.; Ul'masculov, M. R.; Yalandin, M. I.; Zotova, I. V.",
@@ -314,7 +324,8 @@
     "Language": "English",
     "URL": "http://ieeexplore.ieee.org/abstract/document/7395381/",
     "DOI": "10.1109/TPS.2016.2517670",
-    "WOS": "000374162400005"
+    "WOS": "000374162400005",
+    "Scopus": "?"
   },
   {
     "Authors": "Гинзбург, Н. С.; Голованов, A. А.; Зотова, И. В.; Яландин, М. И.",
@@ -340,7 +351,8 @@
     "Language": "English*",
     "URL": "http://iopscience.iop.org/article/10.1070/QEL16313",
     "DOI": "10.1070/QEL16313",
-    "WOS": "000398116700011"
+    "WOS": "000398116700011",
+    "Scopus": "?"
   },
   {
     "Authors": "Томас, Й.; Голованов, А. А.; Костюков, И. Ю.; Пухов, А. М.",
@@ -367,7 +379,8 @@
     "Language": "English",
     "URL": "http://aip.scitation.org/doi/abs/10.1063/1.4975885",
     "DOI": "10.1063/1.4975885",
-    "WOS": "000403065000049"
+    "WOS": "000403065000049",
+    "Scopus": "?"
   },
   {
     "Authors": "Golovanov, A. A.; Kostyukov, I. Yu.",
@@ -382,7 +395,8 @@
     "Language": "English*",
     "URL": "http://iopscience.iop.org/article/10.1070/QEL16305",
     "DOI": "10.1070/QEL16305",
-    "WOS": "000398116700004"
+    "WOS": "000398116700004",
+    "Scopus": "?"
   },
   {
     "Authors": "Голованов, А. А.; Костюков, И. Ю.",
@@ -409,7 +423,8 @@
     "Language": "English",
     "URL": "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.118.264801",
     "DOI": "10.1103/PhysRevLett.118.264801",
-    "WOS": "000404551200005"
+    "WOS": "000404551200005",
+    "Scopus": "?"
   },
   {
     "Authors": "Golovanov, A. A.; Kostyukov, I. Yu.; Thomas, J.; Pukhov, A. M.",
@@ -422,5 +437,21 @@
     "Pages": "71-71",
     "Date": "2017/07/22",
     "Language": "English"
+  },
+  {
+    "Authors": "Golovanov, A. A.; Kostyukov, I. Yu.; Thomas, J.; Pukhov, A.",
+    "Title": "Analytic model for electromagnetic fields in the bubble regime of plasma wakefield in non-uniform plasmas",
+    "Type": "Article",
+    "Journal": "Physics of Plasmas",
+    "Volume": "24",
+    "Number": "10",
+    "Pages": "103104",
+    "Date": "2017/09/14",
+    "Publisher": "AIP Publishing",
+    "Language": "English",
+    "URL": "http://aip.scitation.org/doi/full/10.1063/1.4996856",
+    "DOI": "10.1063/1.4996856",
+    "WOS": "000414171600100",
+    "Scopus": "?"
   }
 ]
