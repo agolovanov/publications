@@ -66,5 +66,17 @@
   {
     "Journal": "AIP Conference Proceedings",
     "Short": "AIP Conf. Proc."
+  },
+  {
+    "Journal": "Physical Review A",
+    "Short": "Phys. Rev. A"
+  },
+  {
+    "Journal": "Journal of Applied Physics",
+    "Short": "J. Appl. Phys."
+  },
+  {
+    "Journal": "Problems of Atomic Science and Technology",
+    "Short": "Probl. Atom. Sci. Tech."
   }
 ]

@@ -15,6 +15,7 @@ if __name__ == '__main__':
 
     db['Authors'] = db['Authors'].map(format_authors)
     db.rename(columns={'Year': 'Date', 'Publication': 'Journal'}, inplace=True)
+    db['Pages'] = db['Pages'].astype(str)
     db['Pages'] = db['Pages'].map(lambda s: s.replace('–', '-'))
     db.loc[db['Volume'].isnull(), 'Type'] = 'Proceeding'
     db.loc[db['Volume'].isnull(), 'Conference'] = db['Journal']

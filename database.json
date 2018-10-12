@@ -478,6 +478,60 @@
     "Publisher": "IEEE",
     "Language": "English",
     "DOI": "10.1109/IVEC.2017.8289608",
-    "URL": "http://ieeexplore.ieee.org/abstract/document/8289608/"
+    "URL": "http://ieeexplore.ieee.org/abstract/document/8289608/",
+    "Scopus": "2-s2.0-85049198359"
+  },
+  {
+    "Authors": "Kostyukov, I. Yu.; Golovanov, A. A.",
+    "Title": "Field ionization in short and extremely intense laser pulses",
+    "Type": "Article",
+    "Journal": "Physical Review A",
+    "Volume": "98",
+    "Number": "4",
+    "Pages": "043407",
+    "Date": "2018/10/4",
+    "Publisher": "American Physical Society",
+    "Language": "English",
+    "DOI": "10.1103/PhysRevA.98.043407",
+    "URL": "https://journals.aps.org/pra/abstract/10.1103/PhysRevA.98.043407"
+  },
+  {
+    "Authors": "Golovanov, A. A.; Lebedev, V. S.; Kostyukov, I. Yu.",
+    "Title": "Design of a gas cell for laser wakefield acceleration of electrons",
+    "Type": "Article",
+    "Journal": "Problems of Atomic Science and Technology",
+    "Volume": "116",
+    "Pages": "70-75",
+    "Date": "2018/8/27",
+    "Language": "English",
+    "URL": "http://vant.kipt.kharkov.ua/ARTICLE/VANT_2018_4/article_2018_4_70.pdf",
+    "Scopus": "2-s2.0-85052511475"
+  },
+  {
+    "Authors": "Лебедев, В. С.; Голованов, А. А.; Костюков, И. Ю.",
+    "Title": "Численное моделирование ускорения электронов в плазме с продольной неоднородностью",
+    "Type": "Proceeding",
+    "Conference Title": "XXIII Нижегородской сессии молодых ученых",
+    "Location": "Нижний Новгород",
+    "Volume": "2",
+    "Pages": "29",
+    "Date": "2018/5/22",
+    "Language": "Russian",
+    "URL": "http://sessiann.ru/news/99"
+  },
+  {
+    "Authors": "Ginzburg, N. S.; Golovanov, A. A.; Romanchenko, I. V.; Rostov, V. V.; Sharypov, K. A.; Shunailov, S. A.; Ulmaskulov, M. R.; Yalandin, M. I.; Zotova, I. V.",
+    "Title": "Phase-imposed regime of relativistic backward-wave oscillators",
+    "Type": "Article",
+    "Journal": "Journal of Applied Physics",
+    "Volume": "124",
+    "Number": "12",
+    "Pages": "123303",
+    "Date": "2018/9/28",
+    "Publisher": "AIP Publishing",
+    "Language": "English",
+    "DOI": "10.1063/1.5046810",
+    "URL": "https://aip.scitation.org/doi/abs/10.1063/1.5046810",
+    "Scopus": "2-s2.0-85054133473"
   }
 ]
