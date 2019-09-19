@@ -3,7 +3,7 @@ import sys
 
 import database as pdb
 
-db = pdb.Database(languages=sys.argv[1], types='Article', format='latex', with_page_prefix=True)
+db = pdb.Database(languages=sys.argv[1], types=sys.argv[2], format='latex', with_page_prefix=True)
 #db.et_al = 'et al'
 #db.et_al_ru = 'и др'
 #db.authors(max_authors=3)
