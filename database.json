@@ -583,5 +583,71 @@
     "Date": "2018/10/22",
     "Language": "English",
     "URL": "http://www.eclim2018.org/downloads/ECLIM-2018-Abstract-book/files/assets/common/downloads/publication.pdf"
+  },
+  {
+    "Authors": "Kostyukov, I.; Golovanov, A.; Starodubtcev, M.; Soloviev, A.; Burdonov, K.; Romanovskii, D.; Perevalov, S.; Kotov, A.",
+    "Title": "LWFA in mismatched regime",
+    "Type": "Abstract",
+    "Conference Title": "Laser-Plasma Accelerator Workshop 2019",
+    "Conference Short": "LPAW2019",
+    "Location": "Split, Croatia",
+    "Pages": "28-28",
+    "Date": "2019/05/05",
+    "Language": "English",
+    "URL": "https://indico.physik.uni-muenchen.de/event/5/book-of-abstracts.pdf"
+  },
+  {
+    "Authors": "Kostyukov, I.; Nerush, E. N.; Samsonov, A. M.; Golovanov, A.; Serebryakov, D.",
+    "Title": "Some processes in extremely strong EM fields: from atomic systems and laser-plasma interactions to astrophysical phenomena",
+    "Type": "Abstract",
+    "Journal": "Proceedings of SPIE",
+    "Volume": "11039, Research Using Extreme Light: Entering New Frontiers with Petawatt-Class Lasers IV",
+    "Pages": "1103907",
+    "Date": "2019",
+    "Publisher": "International Society for Optics and Photonics",
+    "Language": "English",
+    "DOI": "10.1117/12.2525143",
+    "URL": "http://spie.org/Publications/Proceedings/Paper/10.1117/12.2525143"
+  },
+  {
+    "Authors": "Kostyukov, I. Yu.; Golovanov, A. A.",
+    "Title": "Field ionization rate for PIC codes",
+    "Type": "Preprint",
+    "Arxiv": "1906.01358",
+    "Date": "2019/06/04",
+    "Language": "English"
+  },
+  {
+    "Authors": "Golovanov, A. A.; Kostyukov, I. Yu.",
+    "Title": "Field ionization in extremely intense laser fields",
+    "Type": "Proceeding",
+    "Conference Title": "VII International Conference “Frontiers of Nonlinear Physics”",
+    "Conference Short": "FNP-2019",
+    "Location": "Nizhny Novgorod, Russia",
+    "Pages": "102-102",
+    "Date": "2019/06/28",
+    "Language": "English"
+  },
+  {
+    "Authors": "Golovanov, A. A.; Kostyukov, I. Yu.",
+    "Title": "Simulations of laser-wakefield acceleration in a gas cell",
+    "Type": "Proceeding",
+    "Conference Title": "VII International Conference “Frontiers of Nonlinear Physics”",
+    "Conference Short": "FNP-2019",
+    "Location": "Nizhny Novgorod, Russia",
+    "Pages": "103-103",
+    "Date": "2019/06/28",
+    "Language": "English"
+  },
+  {
+    "Authors": "Perevalov, S. E.; Kostyukov, I. Yu.; Golovanov, A. A.; Starodubtsev, M. V.; Romanovskiy, D. S.; Kotov, A. A.; Burdonov, K. F.; Soloviev, A. A.",
+    "Title": "Spectra reconstruction from single-shot two-screen magnetic spectrometer raw data for laser driven electron acceleration",
+    "Type": "Proceeding",
+    "Conference Title": "VII International Conference “Frontiers of Nonlinear Physics”",
+    "Conference Short": "FNP-2019",
+    "Location": "Nizhny Novgorod, Russia",
+    "Pages": "114-115",
+    "Date": "2019/06/28",
+    "Language": "English"
   }
 ]

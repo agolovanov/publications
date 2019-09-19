@@ -7,3 +7,7 @@
 __pycache__
 *.txt
 *.html
+*.pdf
+*.aux
+*.log
+*.synctex.gz
