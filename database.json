@@ -610,14 +610,6 @@
     "URL": "http://spie.org/Publications/Proceedings/Paper/10.1117/12.2525143"
   },
   {
-    "Authors": "Kostyukov, I. Yu.; Golovanov, A. A.",
-    "Title": "Field ionization rate for PIC codes",
-    "Type": "Preprint",
-    "Arxiv": "1906.01358",
-    "Date": "2019/06/04",
-    "Language": "English"
-  },
-  {
     "Authors": "Golovanov, A. A.; Kostyukov, I. Yu.",
     "Title": "Field ionization in extremely intense laser fields",
     "Type": "Proceeding",
@@ -649,5 +641,68 @@
     "Pages": "114-115",
     "Date": "2019/06/28",
     "Language": "English"
+  },
+  {
+    "Authors": "Golovanov, A. A.; Kostyukov, I. Yu.",
+    "Title": "Formula for the ionisation rate of an atom or ion in a strong electromagnetic field for numerical simulation",
+    "Type": "Article",
+    "Journal": "Quantum Electronics",
+    "Volume": "50",
+    "Number": "4",
+    "Pages": "350-353",
+    "Date": "2020/4/1",
+    "Publisher": "IOP Publishing",
+    "Language": "English*",
+    "URL": "https://iopscience.iop.org/article/10.1070/QEL17309/meta",
+    "DOI": "10.1070/QEL17309",
+    "WOS": "000537858800007",
+    "Scopus": "2-s2.0-85085272845",
+    "Arxiv": "1906.01358"
+  },
+  {
+    "Authors": "Голованов, А. А.; Костюков, И. Ю.",
+    "Title": "Формула скорости ионизации атома или иона в сильном электромагнитном поле для численного моделирования",
+    "Type": "Article",
+    "Journal": "Квантовая электроника",
+    "Volume": "50",
+    "Number": "4",
+    "Pages": "350-353",
+    "Date": "2020/4/1",
+    "Language": "Russian*",
+    "URL": "http://www.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=qe&paperid=17239"
+  },
+  {
+    "Authors": "Reichwein, L.; Thomas, J.; Golovanov, A.; Kostyukov, I.; Pukhov, A.",
+    "Title": "Fixing E-field divergence in strongly non-linear wakefields in homogeneous plasma",
+    "Type": "Article",
+    "Journal": "Plasma Physics and Controlled Fusion",
+    "Volume": "62",
+    "Number": "11",
+    "Pages": "115017",
+    "Page Number": "7",
+    "Date": "2020/10/2",
+    "Publisher": "IOP Publishing",
+    "Language": "English",
+    "URL": "https://iopscience.iop.org/article/10.1088/1361-6587/abb618/meta",
+    "DOI": "10.1088/1361-6587/abb618",
+    "WOS": "",
+    "Scopus": ""
+  },
+  {
+    "Authors": "Perevalov, S. E.; Burdonov, K. F.; Kotov, A. V.; Romanovskiy, D. S.; Soloviev, A. A.; Starodubtsev, M. V.; Golovanov, A. A.; Ginzburg, V. N.; Kochetkov, A. A.; Korobeinikova, A. P.; Kuz'min, A. A.; Shaikin, I. A.; Shaykin, A. A.; Yakovlev, I. V.; Khazanov, E. A.; Kostyukov, I. Yu.",
+    "Title": "Experimental study of strongly mismatched regime of laser-driven wakefield acceleration",
+    "Type": "Article",
+    "Journal": "Plasma Physics and Controlled Fusion",
+    "Volume": "62",
+    "Number": "9",
+    "Pages": "094004",
+    "Page Number": "13",
+    "Date": "2020",
+    "Publisher": "IOP Publishing",
+    "Language": "English",
+    "URL": "https://iopscience.iop.org/article/10.1088/1361-6587/aba19f/meta",
+    "DOI": "10.1088/1361-6587/aba19f",
+    "WOS": "",
+    "Scopus": ""
   }
 ]

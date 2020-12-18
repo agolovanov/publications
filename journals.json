@@ -91,5 +91,10 @@
   {
     "Journal": "Proceedings of SPIE",
     "Short": "Proc. SPIE"
+  },
+  {
+    "Journal": "Plasma Physics and Controlled Fusion",
+    "Short": "Plasma Phys. Control. Fusion",
+    "IF 2018": "2.799"
   }
 ]
