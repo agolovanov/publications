@@ -698,7 +698,7 @@
     "URL": "https://iopscience.iop.org/article/10.1088/1361-6587/abb618/meta",
     "DOI": "10.1088/1361-6587/abb618",
     "WOS": "",
-    "Scopus": ""
+    "Scopus": "2-s2.0-85094320006"
   },
   {
     "Authors": "Perevalov, S. E.; Burdonov, K. F.; Kotov, A. V.; Romanovskiy, D. S.; Soloviev, A. A.; Starodubtsev, M. V.; Golovanov, A. A.; Ginzburg, V. N.; Kochetkov, A. A.; Korobeinikova, A. P.; Kuz'min, A. A.; Shaikin, I. A.; Shaykin, A. A.; Yakovlev, I. V.; Khazanov, E. A.; Kostyukov, I. Yu.",
@@ -715,7 +715,7 @@
     "URL": "https://iopscience.iop.org/article/10.1088/1361-6587/aba19f/meta",
     "DOI": "10.1088/1361-6587/aba19f",
     "WOS": "",
-    "Scopus": ""
+    "Scopus": "2-s2.0-85090387940"
   },
   {
     "Authors": "Golovanov, A. A.; Kostyukov, I. Yu.",
@@ -742,7 +742,7 @@
     "Language": "English",
     "URL": "https://iopscience.iop.org/article/10.1088/1361-6587/ac0352/meta",
     "DOI": "10.1088/1361-6587/ac0352",
-    "Scopus": "",
+    "Scopus": "2-s2.0-85108834126",
     "WOS": "",
     "Arxiv": "2102.04693"
   },
@@ -759,7 +759,7 @@
     "Language": "English",
     "URL": "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.127.175001",
     "DOI": "10.1103/PhysRevLett.127.175001",
-    "Scopus": "",
+    "Scopus": "2-s2.0-85118160837",
     "WOS": "",
     "Arxiv": "2107.00452"
   },
@@ -776,7 +776,7 @@
     "Language": "English*",
     "URL": "https://iopscience.iop.org/article/10.1070/QEL17619/meta",
     "DOI": "10.1070/QEL17619",
-    "Scopus": "",
+    "Scopus": "2-s2.0-85114714986",
     "WOS": ""
   },
   {
@@ -817,5 +817,21 @@
     "Pages": "16-16",
     "Date": "2021/10/04",
     "Language": "English"
+  },
+  {
+    "Authors": "Nerush, E. N.; Golovanov, A. A.; Kostyukov, I. Yu.",
+    "Title": "Reconstruction of electron spectrum after magnetic spectrometer with weak magnet",
+    "Type": "Article",
+    "Journal": "Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment",
+    "Volume": "",
+    "Page Number": "",
+    "Pages": "166097",
+    "Date": "2021/12/11",
+    "Publisher": "Elsevier",
+    "Language": "English",
+    "URL": "https://www.sciencedirect.com/science/article/pii/S0168900221010032",
+    "DOI": "10.1016/j.nima.2021.166097",
+    "Scopus": "",
+    "WOS": ""
   }
 ]
