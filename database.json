@@ -792,14 +792,6 @@
     "URL": "https://www.quantum-electron.ru/php/paper_rus.phtml?journal_id=qe&paper_id=17619"
   },
   {
-    "Authors": "Golovanov, A. A.; Nerush, E. N.; Kostyukov, I. Yu.",
-    "Title": "Radiation reaction-dominated regime of wakefield acceleration",
-    "Type": "Preprint",
-    "Arxiv": "2109.04866",
-    "Date": "2021",
-    "Language": "English"
-  },
-  {
     "Authors": "Reichwein, L.; Golovanov, A.; Kostyukov, I. Yu.; Pukhov, A.",
     "Title": "Stable positron acceleration via laser-augmented blowouts in two-column plasma structures",
     "Type": "Preprint",
@@ -819,14 +811,28 @@
     "Language": "English"
   },
   {
+    "Authors": "Golovanov, A. A.; Nerush, E. N.; Kostyukov, I. Yu.",
+    "Title": "Radiation reaction–dominated regime of wakefield acceleration",
+    "Type": "Article",
+    "Journal": "New Journal of Physics",
+    "Volume": "24",
+    "Pages" : "033011",
+    "Arxiv": "2109.04866",
+    "Date": "2022/3/10",
+    "Language": "English",
+    "URL": "https://iopscience.iop.org/article/10.1088/1367-2630/ac53b9",
+    "DOI": "10.1088/1367-2630/ac53b9",
+    "Scopus": "",
+    "WOS": ""
+  },
+  {
     "Authors": "Nerush, E. N.; Golovanov, A. A.; Kostyukov, I. Yu.",
     "Title": "Reconstruction of electron spectrum after magnetic spectrometer with weak magnet",
     "Type": "Article",
     "Journal": "Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment",
-    "Volume": "",
-    "Page Number": "",
-    "Pages": "166097",
-    "Date": "2021/12/11",
+    "Volume": "1025",
+    "Pages" : "166097",
+    "Date": "2022/2/11",
     "Publisher": "Elsevier",
     "Language": "English",
     "URL": "https://www.sciencedirect.com/science/article/pii/S0168900221010032",
