@@ -4,21 +4,24 @@
     "Short": "Phys. Rev. Lett.",
     "IF 2015": "7.645",
     "IF 2016": "8.462",
-    "IF 2017": "8.839"
+    "IF 2017": "8.839",
+    "IF 2020": "9.161"
   },
   {
     "Journal": "Physics of Plasmas",
     "Short": "Phys. Plasmas",
     "IF 2015": "2.207",
     "IF 2016": "2.115",
-    "IF 2017": "1.941"
+    "IF 2017": "1.941",
+    "IF 2020": "2.023"
   },
   {
     "Journal": "Journal of Experimental and Theoretical Physics",
     "Short": "J. Exp. Theor. Phys.",
     "IF 2015": "0.953",
     "IF 2016": "1.196",
-    "IF 2017": "1.255"
+    "IF 2017": "1.255",
+    "IF 2020": "1.290"
   },
   {
     "Journal": "Журнал экспериментальной и теоретической физики",
@@ -29,7 +32,8 @@
     "Short": "Tech. Phys. Lett.",
     "IF 2015": "0.702",
     "IF 2016": "0.771",
-    "IF 2017": "0.808"
+    "IF 2017": "0.808",
+    "IF 2020": "0.714"
   },
   {
     "Journal": "Письма в ЖТФ",
@@ -40,7 +44,8 @@
     "Short": "JETP Lett.",
     "IF 2015": "1.172",
     "IF 2016": "1.235",
-    "IF 2017": "1.363"
+    "IF 2017": "1.363",
+    "IF 2020": "1.532"
   },
   {
     "Journal": "Письма в ЖЭТФ",
@@ -51,7 +56,8 @@
     "Short": "Quantum Electron.",
     "IF 2015": "0.978",
     "IF 2016": "1.119",
-    "IF 2017": "1.151"
+    "IF 2017": "1.151",
+    "IF 2020": "1.022"
   },
   {
     "Journal": "Квантовая электроника",
@@ -61,14 +67,16 @@
     "Journal": "Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment",
     "Short": "Nucl. Instrum. Meth. A",
     "IF 2015": "1.200",
-    "IF 2016": "1.362"
+    "IF 2016": "1.362",
+    "IF 2020": "1.455"
   },
   {
     "Journal": "IEEE Transactions on Plasma Science",
     "Short": "IEEE Trans. Plasma Sci.",
     "IF 2015": "0.958",
     "IF 2016": "1.052",
-    "IF 2017": "1.253"
+    "IF 2017": "1.253",
+    "IF 2020": "1.222"
   },
   {
     "Journal": "AIP Conference Proceedings",
@@ -77,12 +85,14 @@
   {
     "Journal": "Physical Review A",
     "Short": "Phys. Rev. A",
-    "IF 2017": "2.909"
+    "IF 2017": "2.909",
+    "IF 2020": "3.140"
   },
   {
     "Journal": "Journal of Applied Physics",
     "Short": "J. Appl. Phys.",
-    "IF 2017": "2.176"
+    "IF 2017": "2.176",
+    "IF 2020": "2.546"
   },
   {
     "Journal": "Problems of Atomic Science and Technology",
@@ -95,10 +105,12 @@
   {
     "Journal": "Plasma Physics and Controlled Fusion",
     "Short": "Plasma Phys. Control. Fusion",
-    "IF 2018": "2.799"
+    "IF 2018": "2.799",
+    "IF 2020": "2.458"
   },
   {
     "Journal": "New Journal of Physics",
-    "Short": "New J. Phys."
+    "Short": "New J. Phys.",
+    "IF 2020": "3.729"
   }
 ]
