@@ -792,14 +792,6 @@
     "URL": "https://www.quantum-electron.ru/php/paper_rus.phtml?journal_id=qe&paper_id=17619"
   },
   {
-    "Authors": "Reichwein, L.; Golovanov, A.; Kostyukov, I. Yu.; Pukhov, A.",
-    "Title": "Stable positron acceleration via laser-augmented blowouts in two-column plasma structures",
-    "Type": "Preprint",
-    "Arxiv": "2110.05226",
-    "Date": "2021",
-    "Language": "English"
-  },
-  {
     "Authors": "Golovanov, A. A.; Kostyukov, I. Yu.; Reichwein, L.; Thomas, J.; Pukhov, A.",
     "Title": "Analytic model for excitation of a plasma wakefield in the bubble regime",
     "Type": "Abstract",
@@ -839,5 +831,22 @@
     "DOI": "10.1088/1367-2630/ac53b9",
     "Scopus": "2-s2.0-85126473993",
     "WOS": "000766856300001"
+  },
+  {
+    "Authors": "Reichwein, L.; Pukhov, A.; Golovanov, A.; Kostyukov, I. Yu.",
+    "Title": "Positron acceleration via laser-augmented blowouts in two-column plasma structures",
+    "Type": "Article",
+    "Journal": "Physical Review E",
+    "Volume": "105",
+    "Number": "5",
+    "Pages": "055207",
+    "Page Number": "6",
+    "Arxiv": "2110.05226",
+    "Date": "2022/5/17",
+    "Language": "English",
+    "URL": "https://journals.aps.org/pre/abstract/10.1103/PhysRevE.105.055207",
+    "DOI": "10.1103/PhysRevE.105.055207",
+    "Scopus": "",
+    "WOS": ""
   }
 ]
