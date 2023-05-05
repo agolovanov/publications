@@ -924,5 +924,42 @@
     "DOI": "10.1103/PhysRevLett.130.105001",
     "Scopus": "",
     "WOS": ""
+  },
+  {
+    "Authors": "Голованов, А. А.; Костюков, И. Ю.; Пухов, А. М.; Томас, Й.",
+    "Title": "Теория сильно нелинейной кильватерной волны, генерируемой электронным сгустком или лазерным импульсом в неоднородной плазме",
+    "Type": "BookArticle",
+    "Book": "Проблемы теоретической физики. Научные труды. Выпуск 4",
+    "Pages": "178-232",
+    "Date": "2020",
+    "Publisher": "ХНУ имени В.Н. Каразина",
+    "Location": "Харьков",
+    "ISBN": "978-966-285-643-9",
+    "Language": "Russian*",
+    "URL": "http://www.library.univer.kharkov.ua/handle/123456789/17608"
+  },
+  {
+    "Authors": "Golovanov, A. A.; Kostyukov, I. Yu.; Pukhov, A. M.; Thomas, J.",
+    "Title": "Theory of a strongly nonlinear wakefield wave excited by an electron bunch or a laser pulse in inhomogeneous plasma",
+    "Type": "BookArticle",
+    "Book": "Problems of theoretical physics. Scientific works. Issue 4",
+    "Pages": "178-232",
+    "Date": "2020",
+    "Publisher": "V.N. Karazin Kharkiv National University",
+    "Location": "Kharkiv",
+    "ISBN": "978-966-285-643-9",
+    "Language": "English*",
+    "URL": "http://www.library.univer.kharkov.ua/handle/123456789/17608"
+  },
+  {
+    "Authors": "Golovanov, A.; Kostyukov, I.; Pukhov, A.; Malka, V.",
+    "Title": "Energy-conserving theory of strongly nonlinear plasma wakefields",
+    "Type": "Abstract",
+    "Conference": "Asian Forum for Accelerators and Detectors 2023",
+    "Conference Short": "AFAD 2023",
+    "Date": "2023/4/12",
+    "Location": "Melbourne, Australia",
+    "Language": "English",
+    "URL": "https://events01.synchrotron.org.au/event/169/contributions/5153/contribution.pdf"
   }
 ]
