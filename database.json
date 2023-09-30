@@ -961,5 +961,41 @@
     "Location": "Melbourne, Australia",
     "Language": "English",
     "URL": "https://events01.synchrotron.org.au/event/169/contributions/5153/contribution.pdf"
+  },
+  {
+    "Authors": "Golovanov, A.; Kostyukov, I.; Pukhov, A.; Malka, V.",
+    "Title": "Energy conserving theory of plasma blowout",
+    "Type": "Abstract",
+    "Conference": "the 6th European Advanced Accelerator Concepts workshop",
+    "Conference Short": "EAAC 2023",
+    "Pages": "6-6",
+    "Date": "2023/9/18",
+    "Location": "La Biodola, Isola d’Elba, Italy",
+    "Language": "English",
+    "URL": "https://agenda.infn.it/event/35577/book-of-abstracts.pdf"
+  },
+  {
+    "Authors": "Hue, C.; Golovanov, A.; Tata, S.; Corde, S.; Malka, V.",
+    "Title": "Beam current from downramp injection in electron-driven nonlinear plasma wakefields",
+    "Type": "Abstract",
+    "Conference": "the 6th European Advanced Accelerator Concepts workshop",
+    "Conference Short": "EAAC 2023",
+    "Pages": "90-90",
+    "Date": "2023/9/18",
+    "Location": "La Biodola, Isola d’Elba, Italy",
+    "Language": "English",
+    "URL": "https://agenda.infn.it/event/35577/book-of-abstracts.pdf"
+  },
+  {
+    "Authors": "Courvoisier, A.; Golovanov, A.; Sengar, A.; Kroupp, E.; Fridman, L.; Kalvala, R.; Malka, V.",
+    "Title": "A new facility dedicated to VHEE radiotherapy based on laser-plasma accelerators",
+    "Type": "Abstract",
+    "Conference": "the 6th European Advanced Accelerator Concepts workshop",
+    "Conference Short": "EAAC 2023",
+    "Pages": "121-121",
+    "Date": "2023/9/18",
+    "Location": "La Biodola, Isola d’Elba, Italy",
+    "Language": "English",
+    "URL": "https://agenda.infn.it/event/35577/book-of-abstracts.pdf"
   }
 ]
