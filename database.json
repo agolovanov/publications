@@ -1068,6 +1068,28 @@
     "Language": "English"
   },
   {
+    "Authors": "Liberman, A.; Golovanov, A.; Thaury, C.; Levine, E.; Kroupp, E.; Andriyash, I.; Lahaye, R.; Benracassa, S.; Tata, S.; Smartsev, S.; Malka, V.",
+    "Title": "Dephasingless Laser-Wakefield Acceleration",
+    "Type": "Abstract",
+    "Conference": "the 7th European Advanced Accelerator Concepts workshop",
+    "Conference Short": "EAAC 2025",
+    "Date": "2025/9/21",
+    "Location": "La Biodola, Isola d’Elba, Italy",
+    "Language": "English",
+    "URL": "https://agenda.infn.it/event/46259/contributions/270040/contribution.pdf"
+  },
+  {
+    "Authors": "Karsch, S.; Döpp, A.; Golovanov, A.; Irman, A.; Hidding, B.; Travac, E.; Irshad, F.; Peña, F.; Haberstroh, F.; Zirkelbach, J.; Schreiber, J.; von Grafenstein, K.; Feder, L.; Krüger, M.; Zeuner, M.; LaBerge, M.; Foerster, M.; Weisse, N.; Ufer, P.; Walczak, R.; Sharan, S.; Kalos, S.; Hooker, S.; Schoebel, S.; Heinemann, T.; Schramm, U.; Bi, Z.",
+    "Title": "Towards better electrons for applications: tackling the energy, emittance and luminosity frontier",
+    "Type": "Abstract",
+    "Conference": "the 7th European Advanced Accelerator Concepts workshop",
+    "Conference Short": "EAAC 2025",
+    "Date": "2025/9/21",
+    "Location": "La Biodola, Isola d’Elba, Italy",
+    "Language": "English",
+    "URL": "https://agenda.infn.it/event/46259/contributions/270041/contribution.pdf"
+  },
+  {
     "Authors": "Liberman, A.; Golovanov, A.; Smartsev, S.; Talposi, A. M.; Tata, S.; Malka, V.",
     "Title": "First Electron Acceleration in a Tunable-Velocity Laser Wakefield",
     "Type": "Preprint",
