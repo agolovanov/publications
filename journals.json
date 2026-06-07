@@ -133,5 +133,17 @@
   {
     "Journal": "Nature Communications",
     "Short": "Nat. Comm."
+  },
+  {
+    "Journal": "Scientific Reports",
+    "Short": "Sci. Rep."
+  },
+  {
+    "Journal": "Physical Review Research",
+    "Short": "Phys. Rev. Research"
+  },
+  {
+    "Journal": "Reports on Progress in Physics",
+    "Short": "Rep. Progr. Phys."
   }
 ]

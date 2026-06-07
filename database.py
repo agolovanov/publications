@@ -53,7 +53,7 @@ class Database:
         self.with_page_prefix = with_page_prefix
 
         if format == 'latex':
-            self.initials_sep = '\,'
+            self.initials_sep = r'\,'
             self.one_initial_sep = '~'
             self.pages_sep = '--'
             self.pages_prefix_ru = 'стр.~'
@@ -309,7 +309,13 @@ class Database:
             else:
                 return None
 
-        self.db.loc[self.db['Page Number'].isnull(), 'Page Number'] = self.db0['Pages'].map(calc_page_number)
+        page_numbers = self.db0['Pages'].map(calc_page_number).astype('string')
+
+        if 'Page Number' not in self.db.columns:
+            self.db['Page Number'] = page_numbers
+            return
+
+        self.db['Page Number'] = self.db['Page Number'].astype('string').fillna(page_numbers)
 
     def get(self, s, skip_none=True, replacement_dict=None):
         if isinstance(s, dict):
@@ -326,7 +332,7 @@ class Database:
                                 '$pn': 'Page Number'
                                 }
 
-        arr = _pd.Series(index=self.db.index)
+        arr = _pd.Series(index=self.db.index, dtype='object')
         for index, el in self.db.iterrows():
             ans = s
             for k, v in replacement_dict.items():

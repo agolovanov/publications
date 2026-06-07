@@ -1060,14 +1060,6 @@
     "Language": "English"
   },
   {
-    "Authors": "Kalvala, R.; Golovanov, A.; Courvoisier, A.; Friling, T.; Kroupp, E.; Grishko, L.; Malka, V.",
-    "Title": "Start-to-end modelling of laser-plasma acceleration, beam transport and dose deposition of very high-energy electrons for radiotherapy",
-    "Type": "Preprint",
-    "Arxiv": "2508.20678",
-    "Date": "2025",
-    "Language": "English"
-  },
-  {
     "Authors": "Liberman, A.; Golovanov, A.; Thaury, C.; Levine, E.; Kroupp, E.; Andriyash, I.; Lahaye, R.; Benracassa, S.; Tata, S.; Smartsev, S.; Malka, V.",
     "Title": "Dephasingless Laser-Wakefield Acceleration",
     "Type": "Abstract",
@@ -1090,22 +1082,6 @@
     "URL": "https://agenda.infn.it/event/46259/contributions/270041/contribution.pdf"
   },
   {
-    "Authors": "Liberman, A.; Golovanov, A.; Smartsev, S.; Talposi, A. M.; Tata, S.; Malka, V.",
-    "Title": "First Electron Acceleration in a Tunable-Velocity Laser Wakefield",
-    "Type": "Preprint",
-    "Arxiv": "2509.21098",
-    "Date": "2025",
-    "Language": "English"
-  },
-  {
-    "Authors": "Liberman, A.; Golovanov, A.; Tata, S.; Talposi, A. M.; Malka, V.",
-    "Title": "Probing Flying-Focus Wakefields",
-    "Type": "Preprint",
-    "Arxiv": "2510.16950",
-    "Date": "2025",
-    "Language": "English"
-  },
-  {
     "Authors": "Liberman, A.; Golovanov, A.; Smartsev, S.; Tata, S.; Andriyash, I. A.; Benracassa, S.; Levine, E. Y.; Wan, Y.; Kroupp, E.; Malka, V.",
     "Title": "Direct observation of a wakefield generated with structured light",
     "Type": "Article",
@@ -1120,5 +1096,62 @@
     "Scopus": "",
     "WOS": "",
     "Arxiv": "2503.01516"
+  },
+  {
+    "Authors": "Liberman, A.; Golovanov, A.; Tata, S.; Talposi, A. M.; Malka, V.",
+    "Title": "Probing flying-focus wakefields",
+    "Type": "Article",
+    "Journal": "Reports on Progress in Physics",
+    "Volume": "89",
+    "Number": "3",
+    "Pages": "038501",
+    "Date": "2026/3/18",
+    "Publisher": "IOP Publishing",
+    "Language": "English",
+    "DOI": "10.1088/1361-6633/ae4ff0",
+    "URL": "https://iopscience.iop.org/article/10.1088/1361-6633/ae4ff0/meta",
+    "Scopus": "",
+    "WOS": "",
+    "Arxiv": "2510.16950"
+  },
+  {
+    "Authors": "Liberman, A.; Golovanov, A.; Smartsev, S.; Talposi, A. M.; Tata, S.; Malka, V.",
+    "Title": "First electron acceleration in a tunable-velocity laser wakefield",
+    "Type": "Article",
+    "Journal": "Physical Review Research",
+    "Volume": "8",
+    "Number": "2",
+    "Pages": "L022001",
+    "Date": "2026/4/1",
+    "Publisher": "American Physical Society",
+    "Language": "English",
+    "DOI": "10.1103/x5pr-mdvj",
+    "URL": "https://journals.aps.org/prresearch/abstract/10.1103/x5pr-mdvj",
+    "Scopus": "",
+    "WOS": "",
+    "Arxiv": "2509.21098"
+  },
+  {
+    "Authors": "Liberman, A.; Golovanov, A.; Smartsev, S.; Talposi, A. M.; Tata, S.; Malka, V.",
+    "Title": "Electron Acceleration in a Flying-Focus Laser Wakefield Accelerator",
+    "Type": "Preprint",
+    "Date": "2026/4/7",
+    "Arxiv": "2604.05771",
+    "Language": "English"
+  },
+  {
+    "Authors": "Kalvala, R.; Golovanov, A.; Courvoisier, A.; Friling, T.; Kroupp, E.; Grishko, L.; Malka, V.",
+    "Title": "Start-to-end modelling of laser-plasma acceleration, beam transport and dose deposition of very high-energy electrons for radiotherapy",
+    "Type": "Article",
+    "Journal": "Scientific Reports",
+    "Pages": "",
+    "Date": "2026/4/24",
+    "Publisher": "Nature Publishing Group UK London",
+    "Language": "English",
+    "DOI": "10.1038/s41598-026-49116-8",
+    "URL": "https://www.nature.com/articles/s41598-026-49116-8",
+    "WOS": "",
+    "Scopus": "",
+    "Arxiv": "2508.20678"
   }
 ]

@@ -15,14 +15,13 @@ if __name__ == '__main__':
 
     db['Authors'] = db['Authors'].map(format_authors)
     db.rename(columns={'Year': 'Date', 'Publication': 'Journal'}, inplace=True)
-    db['Pages'] = db['Pages'].astype(str)
-    db['Pages'] = db['Pages'].map(lambda s: s.replace('–', '-'))
+    db['Pages'] = db['Pages'].fillna('').map(lambda s: s.replace('–', '-'))
     db.loc[db['Volume'].isnull(), 'Type'] = 'Proceeding'
     db.loc[db['Volume'].isnull(), 'Conference'] = db['Journal']
     db.loc[db['Volume'].isnull(), 'Journal'] = None
     db.loc[db['Volume'].notnull(), 'Type'] = 'Article'
     db = db[['Authors', 'Title', 'Type', 'Journal', 'Conference', 'Volume', 'Number', 'Pages', 'Date', 'Publisher']]
 
-    db.sort_values(by='Date').to_json('citations.json', 'records', force_ascii=False)
+    db.sort_values(by='Date').to_json('citations.json', orient='records', force_ascii=False)
     os.system("jq 'del(.[][] | nulls)' citations.json")
     os.system("rm citations.json")
