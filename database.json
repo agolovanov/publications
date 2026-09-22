@@ -1144,7 +1144,8 @@
     "Title": "Start-to-end modelling of laser-plasma acceleration, beam transport and dose deposition of very high-energy electrons for radiotherapy",
     "Type": "Article",
     "Journal": "Scientific Reports",
-    "Pages": "",
+    "Volume": "16",
+    "Pages": "18829",
     "Date": "2026/4/24",
     "Publisher": "Nature Publishing Group UK London",
     "Language": "English",
@@ -1153,5 +1154,49 @@
     "WOS": "",
     "Scopus": "",
     "Arxiv": "2508.20678"
+  },
+  {
+    "Authors": "Liberman, A.; Golovanov, A.; Talposi, A. M.; Andriyash, I. A.; Tata, S.; Smartsev, S.; Malka, V.",
+    "Title": "First electron acceleration from a tunable-velocity laser wakefield",
+    "Type": "Abstract",
+    "Conference": "European Physical Society Plasma Physics Conference 2026",
+    "Conference Short": "EPS 2026",
+    "Date": "2026/6/29",
+    "Location": "Edinburgh, United Kingdom",
+    "Language": "English",
+    "URL": "https://indico.ukaea.uk/event/449/contributions/1249/"
+  },
+  {
+    "Authors": "Liberman, A.; Golovanov, A.; Kroupp, E.; Davidovich, H.; Benracassa, S.; Tata, S.; Malka, V.; Wan, Y.",
+    "Title": "Direct Observation of electron shedding from a laser driven wakefield accelerator",
+    "Type": "Abstract",
+    "Conference": "European Physical Society Plasma Physics Conference 2026",
+    "Conference Short": "EPS 2026",
+    "Date": "2026/6/29",
+    "Location": "Edinburgh, United Kingdom",
+    "Language": "English",
+    "URL": "https://indico.ukaea.uk/event/449/contributions/1881/"
+  },
+  {
+    "Authors": "Tata, S.; Benracassa, S.; Davidovich, H.; Liberman, A.; Golovanov, A.; Levine, E. Y.; Wan, Y.; Kroupp, E.; Malka, V.",
+    "Title": "Direct observation of electron shedding from a laser-plasma accelerator",
+    "Type": "Preprint",
+    "Date": "2026/9/14",
+    "Arxiv": "2609.15968",
+    "Language": "English"
+  },
+  {
+    "Authors": "Mohanty, A.; Levine, E. Y.; Kroupp, E.; Seemann, O.; Golovanov, A.; Malka, V.",
+    "Title": "A gas waveguide for long-distance high-intensity laser pulse propagation",
+    "Type": "Article",
+    "Journal": "Review of Scientific Instruments",
+    "Volume": "97",
+    "Number": "9",
+    "Pages": "093303",
+    "Date": "2026/9/16",
+    "Publisher": "AIP Publishing",
+    "Language": "English",
+    "DOI": "10.1063/5.0333688",
+    "URL": "https://pubs.aip.org/rsi/article/97/9/093303/3404646/A-gas-waveguide-for-long-distance-high-intensity"
   }
 ]
